@@ -8,13 +8,13 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/11.2.0/firebase
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBY8rAzFTcpzhx9vvzLUP3t9gQY2U3I648",
-  authDomain: "filesnap-net101.firebaseapp.com",
-  projectId: "filesnap-net101",
-  storageBucket: "filesnap-net101.firebasestorage.app",
-  messagingSenderId: "1042397217298",
-  appId: "1:1042397217298:web:43b985209e12d672090ecb",
-  measurementId: "G-PJDYYPL6QE"
+  apiKey: "AIzaSyDnMi114Ql0jBtMWIivxCGJ-JxMUEsBvpI",
+  authDomain: "net102filebrowser.firebaseapp.com",
+  projectId: "net102filebrowser",
+  storageBucket: "net102filebrowser.firebasestorage.app",
+  messagingSenderId: "622272765450",
+  appId: "1:622272765450:web:4b92ab8c04b8751c7349f3",
+  measurementId: "G-YZDQ4NGE0F"
 };
 
 // Initialize Firebase
@@ -22,4 +22,4 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-export { auth, db };
+export { auth, db};

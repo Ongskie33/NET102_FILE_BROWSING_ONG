@@ -12,22 +12,22 @@ const port = 3000;
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBY8rAzFTcpzhx9vvzLUP3t9gQY2U3I648",
-    authDomain: "filesnap-net101.firebaseapp.com",
-    projectId: "filesnap-net101",
-    storageBucket: "filesnap-net101.firebasestorage.app",
-    messagingSenderId: "1042397217298",
-    appId: "1:1042397217298:web:43b985209e12d672090ecb",
-    measurementId: "G-PJDYYPL6QE"
+    apiKey: "AIzaSyDnMi114Ql0jBtMWIivxCGJ-JxMUEsBvpI",
+    authDomain: "net102filebrowser.firebaseapp.com",
+    projectId: "net102filebrowser",
+    storageBucket: "net102filebrowser.firebasestorage.app",
+    messagingSenderId: "622272765450",
+    appId: "1:622272765450:web:4b92ab8c04b8751c7349f3",
+    measurementId: "G-YZDQ4NGE0F"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(firebaseApp);
 
 cloudinary.config({
-    cloud_name: 'dhngrdkqh',
-    api_key: '336832378419212',
-    api_secret: 'duJb68Hb0U2-vha70RGyBEVKpy8',
+    cloud_name: 'dz21pdcu4',
+    api_key: '566848687367343',
+    api_secret: 'Poc41D3KCOL-LwkTu0_CKCHAif0',
 });
 
 // Enable CORS for all origins
